@@ -2,16 +2,17 @@
 
 :root {
   --color-primary: #4D41C0;
-  --black: 
+  --black: #121212
 }
 
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
 }
 
 html, body {
-    background-color: #121212;
+    background-color: var(--black);
 }
 
 a, a:hover {
