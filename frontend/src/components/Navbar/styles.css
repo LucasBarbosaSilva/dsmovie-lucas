@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color: #4D41C0;
+    --white: #ffffff;
+}
+
+header {
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 3.75rem;
+}
+
+.container {
+    width: 100%;
+    padding: 0.875rem 2.063rem;
+}
+
+.content {
+    width: "100%";
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+ margin: 0;
+}
+.container-git{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-git p{
+    margin: 0;
+    margin-left: 0.625rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+}
