@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root{
-    --primary-color: #4D41C0;
-    --white: #ffffff;
-}
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--color-primary);
     width: 100vw;
     height: 3.75rem;
 }

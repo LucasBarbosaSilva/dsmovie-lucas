@@ -2,7 +2,10 @@
 
 :root {
   --color-primary: #4D41C0;
-  --black: #121212
+  --black-main: #2c2c2c;
+  --black-2: #383838;
+  --white: #ffffff;
+  --while-gray: #f4f4f4;
 }
 
 * {
@@ -12,7 +15,8 @@
 }
 
 html, body {
-    background-color: var(--black);
+  height: 100%;
+  background-color: var(--black-main);
 }
 
 a, a:hover {
