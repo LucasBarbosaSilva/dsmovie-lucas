@@ -1,8 +1,9 @@
 import React from "react";
+import { Pagination } from "../../components/Pagination";
 import './styles.css';
 const Listing = () => {
     return(
-        <h1>Hello Wolrd</h1>
+        <Pagination/>
     )
 }
 
