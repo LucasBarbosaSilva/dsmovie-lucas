@@ -1,0 +1,5 @@
+.container-movies{
+  display: flex;
+  gap: 1rem;
+  padding: 0 1.5rem;
+}

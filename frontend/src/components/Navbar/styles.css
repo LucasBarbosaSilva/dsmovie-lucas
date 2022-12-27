@@ -30,7 +30,7 @@ header {
 
 .container-git p{
     margin: 0;
-    margin-left: 0.625rem;
+    /* margin-left: 0.625rem; */
     font-family: 'Open Sans', sans-serif;
     color: var(--white);
 }
